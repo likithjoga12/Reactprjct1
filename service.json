@@ -1,0 +1,39 @@
+{
+  "services": [
+    {
+      "id": "101",
+      "name": "Diver"
+     
+    },
+    {
+      "id": "102",
+      "name": "Plumber"
+    },
+    {
+      "id": "103",
+      "name": "Electrician"
+    },
+    {
+      "id": "104",
+      "name": "Fire fighter"
+    },
+    {
+      "id": "105",
+      "name": "Carpenter"
+    },
+    {
+      "id": "123",
+      "name": "Doctor"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 101,
+      "reviews": "Lorem Ipsum is simply dummy text of"
+    },
+    {
+      "id": "102",
+      "reviews": "hlo sample"
+    }
+  ]
+}

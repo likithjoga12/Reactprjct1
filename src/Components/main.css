@@ -1,0 +1,149 @@
+.pk img {
+    width: 20%;
+    
+}
+h5 ,.p{
+    border: 2px black solid;
+}
+.footer li{
+    list-style: none;
+}
+.loot{
+    background-image: url("D:\project21\rl23p\src\Components\download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+}
+.pek p{
+    text-align: center;
+}
+.kdl h4{
+    border :2px solid black;
+    width :40%;
+    margin-top: 24px;
+}
+.kdl img{
+    width: 100%;
+}
+
+.kdl p{
+    width: 50%;
+}
+.ramp{
+    background-image: url("D:\project21\rl23p\src\Components\our-services-writing-3d-render-260nw-1877372119.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20px 0px;
+    
+}
+.ramp h1{
+    text-align: center;
+    border :2px solid blanchedalmond;
+   margin-top: 10%;
+   width: 50%;
+   margin-left: 25%;
+   
+ 
+}
+.lok{
+    padding-top: 28%;
+}
+.vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: black; /* You can change the color as needed */
+  }
+  .footer {
+    background-color: #f8f9fa;
+  }
+  
+  .footer .container {
+    padding: 20px;
+  }
+  
+  .footer .row {
+    margin-bottom: 20px;
+  }
+  
+  .footer .p {
+    margin: 0;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .d-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer .d-flex p {
+      margin: 5px 0;
+    }
+  }
+  /* For the arrow-shaped card */
+.arrow-card {
+  position: relative;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.arrow-card::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  border-width: 20px;
+  border-style: solid;
+  border-color: #007bff transparent transparent transparent;
+}
+.card {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+.vertical-line {
+  width: 2px;
+  background-color: black;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.content-left,
+.content-right {
+  width: 100%;
+  max-width: 300px;
+}
+
+.content-left {
+  text-align: right;
+}
+
+.content-right {
+  text-align: left;
+}
