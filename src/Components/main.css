@@ -121,8 +121,8 @@ h5 ,.p{
   border-color: #007bff transparent transparent transparent;
 }
 .card {
-  background-color: green;
-  color: white;
+  background-color: rgb(23, 181, 26);
+  color:black;
   border-radius: 10px;
 }
 .vertical-line {

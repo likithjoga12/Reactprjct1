@@ -2,11 +2,15 @@ import React ,{useEffect,useState}from 'react';
 import logo from "./all-in-all-services-urapakkam-chengalpattu-electricians-ou5z96w.avif";
 import './main.css';  // Ensure to import your CSS
 import axios from 'axios';
-import {Row, Col, Card } from 'react-bootstrap';
+import {  Row, Col } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+
+
 
 const Home = () => {
   const [service, setService] = useState([]);
-  const [data, setData] = useState([]);
+   const [data, setData] = useState([]);
+
   useEffect(() => {
     axios.get('http://localhost:4002/services')
       .then((res) => {
@@ -16,6 +20,8 @@ const Home = () => {
         console.log('error', err);
       });
   }, []);
+
+ 
 
 
   useEffect(() => {
@@ -38,21 +44,22 @@ const Home = () => {
         <h1>Home</h1>
         <p>Welcome to the ABC Book Services</p>
       </div>
-      <div className='container'>
+  
+     <div className='container'>
       <Row>
       {data.map((milestone, index) => (
           <Col md={3} key={index} className="mb-4">
-            <Card className="h-100 text-center ">
-              <Card.Body>
+          
+              <NavLink to={`/editData/${milestone.id}`}>
+             <button className='btn btn-outline-info'> {milestone.name}</button>
+                                </NavLink>
                
-                <Card.Text className='text-white'>{milestone.name}</Card.Text>
-              </Card.Body>
-            </Card>
+            
           </Col>
         ))}
         </Row>
-      </div>
-      
+    </div>
+     
       <div className='container kdl'>
         <div className='row'>
           <div className='col-md-8 col-12 border border-dark mb-3'>

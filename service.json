@@ -1,11 +1,6 @@
 {
   "services": [
     {
-      "id": "101",
-      "name": "Diver"
-     
-    },
-    {
       "id": "102",
       "name": "Plumber"
     },
@@ -24,16 +19,75 @@
     {
       "id": "123",
       "name": "Doctor"
+    },
+    {
+      "id": "111",
+      "name": "waiter",
+      "description": "hotel staff"
+    },
+    {
+      "id": "130",
+      "name": "labour",
+      "description": "building constructor"
+    },
+    {
+      "id": "115",
+      "name": "swimmer",
+      "description": "athelete"
     }
   ],
   "reviews": [
     {
-      "id": 101,
+      "id": "101",
       "reviews": "Lorem Ipsum is simply dummy text of"
     },
     {
       "id": "102",
       "reviews": "hlo sample"
+    },
+    {
+      "id": "1",
+      "reviews": "majorly highlighted"
+    }
+  ],
+  "profile": [
+    {
+      "id": "200",
+      "name": "rinky",
+      "email": "rinky12@gmail.com",
+      "subject": "wood work"
+    }
+  ],
+  "bookser": [
+    {
+      "id": "101",
+      "name": "rinku",
+      "email": "rinky12@gmail.com",
+      "services": "carpenter",
+      "subject": "wood work",
+      "message": "the wood work is done well"
+    },
+    {
+      "id": "382d",
+      "formData": {
+        "name": "likith joga",
+        "phoneNumber": "08309857199",
+        "email": "likithyadav143@gmail.com",
+        "services": "carpenter",
+        "subject": "dgtrnrjuktkt",
+        "message": "good"
+      }
+    },
+    {
+      "id": "64e7",
+      "formData": {
+        "name": "preethi",
+        "phoneNumber": "09491206789",
+        "email": "preethi12@gmail.com",
+        "services": "plumber",
+        "subject": "dgtrnrjuktkt",
+        "message": "hlo"
+      }
     }
   ]
 }

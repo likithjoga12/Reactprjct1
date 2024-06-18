@@ -1,5 +1,5 @@
 import React ,{useEffect,useState}from 'react'
-import './main.css';
+import "./main.css"
 import axios from 'axios';
 
 import {Row, Col, Card } from 'react-bootstrap';
